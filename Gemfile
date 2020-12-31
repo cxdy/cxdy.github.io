@@ -31,3 +31,7 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # Admin
 gem 'jekyll-admin', group: :jekyll_plugins
 
+# Theme
+gem 'jekyll-remote-theme'
+
+
