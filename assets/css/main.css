@@ -222,6 +222,15 @@ input, select, textarea {
   z-index: -1;
 }
 
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+	#bg {
+			background: url("images/mobile-bg.jpg") no-repeat center center fixed;
+			background-size: cover;
+	}
+}
+
 /* Overlay */
 
 	@-moz-keyframes overlay {
