@@ -211,10 +211,10 @@ input, select, textarea {
 
 /* BG */
 
-#bg {
+	#bg {
 	/* Set your background with this */
 
-		background: url("images/bg.jpg") bottom left;
+		background: url("images/bg.jpg");
 		height: 100%;
 		left: 0;
 		opacity: 1;
