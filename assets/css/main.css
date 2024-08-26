@@ -210,26 +210,22 @@ input, select, textarea {
 	}
 
 /* BG */
- 
+
 #bg {
-	background: url("images/bg.jpg") no-repeat center center fixed;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
+	/* Set your background with this */
 
-
-/* Media query for mobile devices */
-@media (max-width: 767px) {
-	#bg {
-			background: url("images/mobile-bg.jpg") no-repeat center center fixed;
-			background-size: cover;
+		background: url("images/bg.jpg") bottom left;
+		height: 100%;
+		left: 0;
+		opacity: 1;
+		position: fixed;
+		top: 0;
 	}
-}
+
+	#bg {
+		background-size: 2250px auto;
+		width: 6750px;
+	}
 
 /* Overlay */
 
